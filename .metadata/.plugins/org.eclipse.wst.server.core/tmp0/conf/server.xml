@@ -142,7 +142,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="E:\ServletandJsp\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="E:\ServletandJsp\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\TakeInput" path="/TakeInput" reloadable="true" source="org.eclipse.jst.jee.server:TakeInput"/></Host>
+      <Context docBase="E:\ServletandJsp\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="E:\ServletandJsp\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\TakeInput" path="/TakeInput" reloadable="true" source="org.eclipse.jst.jee.server:TakeInput"/><Context docBase="E:\ServletandJsp\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SumTwoNumber" path="/SumTwoNumber" reloadable="true" source="org.eclipse.jst.jee.server:SumTwoNumber"/><Context docBase="E:\ServletandJsp\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SumTwoNum" path="/SumTwoNum" reloadable="true" source="org.eclipse.jst.jee.server:SumTwoNum"/></Host>
     </Engine>
   </Service>
 </Server>
