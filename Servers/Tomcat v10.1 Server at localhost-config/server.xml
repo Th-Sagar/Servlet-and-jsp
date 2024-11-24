@@ -142,7 +142,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="TakeInput" path="/TakeInput" reloadable="true" source="org.eclipse.jst.jee.server:TakeInput"/><Context docBase="SumTwoNumber" path="/SumTwoNumber" reloadable="true" source="org.eclipse.jst.jee.server:SumTwoNumber"/><Context docBase="SumTwoNum" path="/SumTwoNum" reloadable="true" source="org.eclipse.jst.jee.server:SumTwoNum"/></Host>
+      <Context docBase="TakeInput" path="/TakeInput" reloadable="true" source="org.eclipse.jst.jee.server:TakeInput"/><Context docBase="SumTwoNumber" path="/SumTwoNumber" reloadable="true" source="org.eclipse.jst.jee.server:SumTwoNumber"/><Context docBase="SumTwoNum" path="/SumTwoNum" reloadable="true" source="org.eclipse.jst.jee.server:SumTwoNum"/><Context docBase="RequestDispatcher" path="/RequestDispatcher" reloadable="true" source="org.eclipse.jst.jee.server:RequestDispatcher"/><Context docBase="SessionTest" path="/SessionTest" reloadable="true" source="org.eclipse.jst.jee.server:SessionTest"/></Host>
     </Engine>
   </Service>
 </Server>

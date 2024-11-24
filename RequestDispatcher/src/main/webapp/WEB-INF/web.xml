@@ -1,0 +1,41 @@
+<web-app>
+<servlet>
+
+<servlet-name>
+Hello
+</servlet-name>
+
+
+<servlet-class>
+Hello
+
+</servlet-class>
+
+</servlet>
+
+
+<servlet>
+
+<servlet-name>
+
+WelcomeServlet
+</servlet-name>
+
+
+<servlet-class>
+
+WelcomeServlet
+</servlet-class>
+
+</servlet>
+
+  <servlet-mapping>  
+    <servlet-name>Hello</servlet-name>  
+    <url-pattern>/servlet1</url-pattern>  
+  </servlet-mapping>  
+  <servlet-mapping>  
+    <servlet-name>WelcomeServlet</servlet-name>  
+    <url-pattern>/servlet2</url-pattern>  
+  </servlet-mapping>  
+
+</web-app>
