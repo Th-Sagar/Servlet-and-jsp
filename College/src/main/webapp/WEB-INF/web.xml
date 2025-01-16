@@ -1,0 +1,22 @@
+<web-app>
+<servlet>
+
+<servlet-name>
+CollegeN
+</servlet-name>
+
+
+<servlet-class>
+CollegeN
+
+</servlet-class>
+
+</servlet>
+
+  <servlet-mapping>  
+    <servlet-name>CollegeN</servlet-name>  
+    <url-pattern>/CollegeN</url-pattern>  
+  </servlet-mapping>  
+  
+
+</web-app>
